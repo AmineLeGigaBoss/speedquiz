@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Style général de l'application-->
+    <style name="Theme.Game" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customisation du theme -->
+        <item name="colorPrimary">@color/purple_700</item>
+
+    </style>
+
+    <style name="Widget.Game.TextInputLayer.Weight" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name ="boxStrokeColor">@color/black</item>
+        <item name = "hintTextColor">@color/black</item>
+        <item name = "hintTextAppearance">@style/TextAppearance.Game.TextInputLayout.HintText</item>
+        <item name = "android:paddingBottom">8dp</item>
+    </style>
+
+    <style name="Widget.Game.TextInputLayer.Height" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name ="boxStrokeColor">@color/black</item>
+        <item name = "hintTextColor">@color/black</item>
+        <item name = "hintTextAppearance">@style/TextAppearance.Game.TextInputLayout.HintText</item>
+        <item name = "android:paddingBottom">8dp</item>
+    </style>
+
+
+    <!-- Style pour l'input text -->
+    <style name = "TextAppearance.Game.TextInputLayout.HintText" parent="TextAppearance.MaterialComponents.Subtitle2">
+        <item name = "android:textColor">@color/purple_700</item>
+    </style>
+
+    <style name = "Widget.Game.OutlineButton" parent ="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name = "backgroundTint">@color/purple_200</item>
+        <item name = "strokeColor">@color/purple_700</item>
+        <item name = "strokeWidth">3dp</item>
+    </style>
+
+</resources>
